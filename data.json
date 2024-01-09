@@ -1,39 +1,37 @@
 {
-    "name":"Angelie Jolie",
+    "name":"Angelie Joy Dalgo Tugom",
+    "profile":"Software Engineer",
     "avatar": "https://avatars.githubusercontent.com/u/52441155?v=4.jpeg",
     "links": [
         {
-            "title": "My Personal site",
-            "href": "https://anjeri.vercel.app",
+            "title": "LinkedIn Account",
+            "href": "https://www.linkedin.com/in/angelie-joy-tugom-web-developer/",
             "image":"https://avatars.githubusercontent.com/u/52441155?v=4.jpeg"
+
         },
         {
             "title": "Vercel Site",
-            "href": "https://anjeri.vercel.app",
+            "href": "https://vercel.com/anjeri404/linktree-next-tailwind",
             "image":"https://avatars.githubusercontent.com/u/52441155?v=4.jpeg"
         },
         {
             "title": "Github Site",
-            "href": "https://anjeri.vercel.app",
-            "image":"https://avatars.githubusercontent.com/u/52441155?v=4.jpeg"
-        },
-        {
-            "title": "Instagram",
-            "href": "https://anjeri.vercel.app",
+            "href": "https://github.com/anjeri404",
             "image":"https://avatars.githubusercontent.com/u/52441155?v=4.jpeg"
         }
     ],
     "socials": [
         {
             "title": "Facebook",
-            "href": "https://instagram.com/anjerichoi_"
+            "href": "https://www.facebook.com/anjerichoi/",
+            "image":"https://www.facebook.com/photo/?fbid=6628961793809056&set=a.144886278883339"
         },
         {
             "title": "Instagram",
-            "href": "https://github.com/anjeri404"
+            "href": "https://instagram.com/anjerii_"
         },  {
-            "title": "Twitter",
-            "href": "https://github.com/anjeri404"
+            "title": "Linktree",
+            "href": "https://linktr.ee/anjerii_"
         }
     ]
 }

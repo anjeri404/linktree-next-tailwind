@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
-import Head from "next/head";
 import Image from "next/image";
 import data from "../data.json";
 import {
   TiSocialTwitterCircular,
   TiSocialFacebookCircular,
   TiSocialInstagramCircular,
+  TiSocialInstagram,
 } from "react-icons/ti";
 
 function LinkCard({
@@ -20,7 +20,7 @@ function LinkCard({
   return (
     <a
       href={href}
-      className="flex items-center p-1 w-full rounded-md bg-white hover:scale-105 transition-all border border-gray-300 mb-3"
+      className="flex items-center p-1 w-[500px] rounded-md bg-white hover:scale-105 transition-all border border-gray-300 mb-3"
     >
       <div className="flex text-center w-full ">
         {image && (
@@ -50,15 +50,22 @@ const Home: NextPage = () => {
         width={150}
         height={150}
       />
-      <h1 className="font-semibold text-xl mt-4 mb-8">{data.name}</h1>
+      <h1 className="font-semibold text-xl  mt-5">{data.name}</h1>
+      <h6 className="font-semibold text-sm italic mt-2 mb-8">{data.profile}</h6>
       {data.links.map((link) => (
         <LinkCard key={link.href} {...link} />
       ))}
       <div>
         <div className="flex items-center gap-1">
-          <TiSocialFacebookCircular size={40} />
-          <TiSocialInstagramCircular size={40} />
-          <TiSocialTwitterCircular size={40}/>
+          <a>
+            <TiSocialFacebookCircular size={40} />
+          </a>
+          <a>
+            <TiSocialInstagramCircular size={40} />
+          </a>
+          <a>
+            <TiSocialTwitterCircular size={40} />
+          </a>
         </div>
         {/* {data.socials.map((link) => {
           if (link.href.includes("Facebook")) {
@@ -67,7 +74,7 @@ const Home: NextPage = () => {
           if (link.href.includes("Instagram")) {
             return <TiSocialInstagram />;
           }
-          if (link.href.includes("Twitter")) {
+          if (link.href.includes("Linktree")) {
             return <TiSocialTwitterCircular />;
           }
         })} */}
